@@ -6,7 +6,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-data_path = f'{os.getenv("HOME")}/Data/csv/crime.csv'
+data_path = 'crime.csv'
 
 st.set_page_config(layout="wide") # default: centered page layout
 
